@@ -9,6 +9,5 @@ public class App
     {
         ApplicationContext context = new AnnotationConfigApplicationContext(CollegeConfig.class);
         College college = context.getBean(College.class);
-        college.test();
     }
 }

@@ -9,6 +9,9 @@ public class CollegeConfig {
     public College college(){
         return new College();
     }
+    public  String New_met(){
+        return New_met();
+    }
 }
 
 
